@@ -29,14 +29,13 @@
 
 .modal label {
   margin-bottom: 0.5rem;
-  width: 50px
 }
 
 .modal input[type="text"] {
   margin-bottom: 1rem;
   padding: 0.5rem;
   font-size: 1rem;
-  width: 335px;
+  width: 100%;
 }
 
 .radio-group {

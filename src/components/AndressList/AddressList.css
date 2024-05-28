@@ -1,0 +1,74 @@
+.card-container{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card {
+  padding: 0.75rem;
+  border: 1px solid #D4D5D8;
+  border-radius: 0.5rem;
+  height: 125px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+
+  
+
+  span {
+    background-color: #DAE6FF;
+    padding: 0.35rem;
+    border-radius: 10px;
+  }
+}
+
+.card:hover{
+  border: 1px solid #4E4EF8;
+  transition: 0.6s;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.card-info{
+  padding-top: 10px;
+}
+
+.card-img-info{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.edit {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.edit:hover{
+  color: #4E4EF8;
+}
+
+.delete {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.delete:hover{
+  color: red;
+}

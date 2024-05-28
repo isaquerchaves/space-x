@@ -1,0 +1,29 @@
+.container{
+  padding: 1rem;
+}
+
+h3 {
+  text-align: center;
+}
+ 
+.button {
+  border: none;
+  background-color: #F1F1FF;
+  padding: .85rem;
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: .95rem;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+
+  cursor: pointer;
+
+  span{
+    color: #4E4EF8;
+  }
+
+}
